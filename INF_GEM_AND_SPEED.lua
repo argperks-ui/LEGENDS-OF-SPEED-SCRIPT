@@ -65,9 +65,9 @@ UserInputService.InputBegan:Connect(function(input, gameProcessed)
         if input.KeyCode == Enum.KeyCode.Q then
             toggleScript()
         elseif input.KeyCode == Enum.KeyCode.G then
-            adjustMultiplier(1) -- Increase multiplier
+            adjustMultiplier(50) -- Increase multiplier
         elseif input.KeyCode == Enum.KeyCode.H then
-            adjustMultiplier(-1) -- Decrease multiplier
+            adjustMultiplier(-50) -- Decrease multiplier
         end
     end
 end)
